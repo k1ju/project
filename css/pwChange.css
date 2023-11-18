@@ -1,0 +1,67 @@
+header{
+    color: gray;
+    padding: 10px;
+    margin: 5px;
+}
+#container{
+    width: 350px;
+    height: 600px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9E000;
+}
+.inner_box{
+    width: 250px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;  
+    /* border: salmon solid 2px; */
+    /* display: flex; */
+}
+#submitBtn{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.login_input{
+    width: 99%;
+    height: 99%;
+}
+#confirmBtn{
+    width: 255px;
+    height: 99%;
+    background-color: white;
+    border: gray 1px solid;
+}
+#loginBtn{
+    width: 48%;
+    height: 99%;
+    background-color: white;
+    border: gray 1px solid;
+    position: relative;
+    left: 5px;
+}
+#signupBtn{
+    width: 48%;
+    height: 99%;
+    background-color: white;
+    border: gray 1px solid;
+    position: relative;
+    right: 2px;
+}
+#login_signup{
+    width: 255px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.letter{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 0.75rem;
+    color: gray;
+}
